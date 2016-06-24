@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     @ClassParams({Bundle.class})
     public static Method restoreManagedDialogs;
 
-    @StringParams({"com.reflect.datatype.BaseInt"})
+    @StringParams({"com.reflect.datatype.BasicInt"})
     public static StaticMethod<String> savedDialogArgsKeyFor;
 
     public static Field<WindowManager> mWindowManager;
